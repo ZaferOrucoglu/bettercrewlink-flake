@@ -2,7 +2,7 @@ name: Auto Update BetterCrewLink
 
 on:
   schedule:
-    # Her gün saat 04:00 UTC'de çalışır
+    # It runs every day at 4:00 a.m. UTC
     - cron: '0 4 * * *'
   workflow_dispatch:
 
